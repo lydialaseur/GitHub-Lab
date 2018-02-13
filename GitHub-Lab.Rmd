@@ -98,6 +98,8 @@ Git keeps track of changes to tracked files in the background. These changes mus
 
 1. __Edit this file and stage the changes, but do not commit your changes.__
 
+_This is the edit to the file._
+
 #### Diff {-}
 
 [`diff`](https://git-scm.com/docs/git-diff) shows changes between commits, commit and working tree, or changes between two files on disk, etc. This allows for a fine-grained approach to stage or unstage specific changes by chunk or line.
@@ -155,6 +157,8 @@ For those of you lucky enough to have somehow avoided them, merge conflicts aris
 For instance, imagine if Persons A and B each checkout the most recent changes from the remote repo. They each do some different work on the same file, commit the work, and go to push the changes. Person A has no problem, and their changes are added to the history of the remote repo. When Person B goes to push, however, they don't have the changes created by A. Git is smart enough to try to merge the files if the changes don't overlap at all, but it will default to being careful about this assumption.
 
 1. __Use the `History` tab to solve any merge conflicts that arose. If none did, create one and solve it!__
+
+_It's tricky to create a merge conlfict since I'm working solo. I think I can create one using git commit --amend since it overwrites the history._
 
 #### New Brach and `master` {-}
 
