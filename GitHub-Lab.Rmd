@@ -197,7 +197,9 @@ Voila!
 
 ![](img/edtionline4.PNG)
 
-This is not the best way to make big changes because it is easy to run into conflicts but for small ones it's fine. 
+This is not the best way to make big changes because it is easy to run into conflicts but for small ones it's fine.
+
+_Making a change with the online editor._
 
 ### Make changes with the console
 
